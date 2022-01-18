@@ -1,0 +1,131 @@
+.arlinks{
+    list-style-type: none;
+    background-color: darkgreen;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li{
+    float: left;
+}
+
+nav li a{
+    padding: 15px 15px;
+    text-display: none;
+    color: white;
+    display: block;
+}
+
+nav li a:hover{
+    background-color: greenyellow;
+}
+
+.styleimages{
+    background-image: url("../images/elephant.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.artexts{
+    text-align: center;
+    color: black;
+    font-size: 28px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+
+.arbutton{
+    padding: 12px 12px;
+    width: 60%;
+    background-color: gray;
+    border-radius: 12px;
+}
+
+nav,section{
+    margin: 3px;
+    padding: 4px;
+}
+
+.center{
+    text-align: center;
+}
+
+.flexbox{
+    display: flex;
+}
+
+.flex-contain{
+    display: flex;
+}
+
+.flex-contain > div{
+    margin: 4px;
+    padding: 8px;
+}
+
+#gallery img{
+    border-radius: 50%;
+}
+
+.flexbox >div{
+    margin: 2px;
+    padding: 2px;
+}
+
+.about p{
+    border: ;
+}
+
+.container{
+    padding: 40px;
+    background-color: lightgray;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.col-20 {
+    float: left;
+    width: 20%;
+    margin-top: 6px;
+}
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+.col-80 {
+    float: left;
+    width: 80%;
+    margin-top: 6px;
+}
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+input,textarea{
+    width: 90%;
+    padding: 10px;
+    border-radius: 4px%;
+    border: 1px solid green;
+    resize: vertical;
+}
+label{
+    display: inline;
+    padding: 12px 12px 12px 0;
+}
+.submitbtn{
+    float: right;
+    padding: 12px 10px;
+    width: 25%;
+    background-color: green;
+    border-radius: 4px;
+    border: none;
+}
